@@ -1,8 +1,8 @@
-Antes de ejecutar hay que instalar zenoh, [zenoh-c](https://github.com/eclipse-zenoh/zenoh-c) y después [zenoh-cpp](https://github.com/eclipse-zenoh/zenoh-cpp).
+Antes de ejecutar hay que instalar, rust, zenoh, [zenoh-c](https://github.com/eclipse-zenoh/zenoh-c) y después [zenoh-cpp](https://github.com/eclipse-zenoh/zenoh-cpp).
 
 ## Prebuild
 
-1. Instalar rust
+1. curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 2. git clone https://github.com/eclipse-zenoh/zenoh-c.git
 3. mkdir -p build && cd build 
 4. cmake ../zenoh-c
